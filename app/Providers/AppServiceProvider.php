@@ -10,5 +10,6 @@ class AppServiceProvider extends ServiceProvider
        Paginator::useBootstrap();//動画
        // Paginator::useBootstrapFive();    　公式ドキュメント
        //または Paginator::useBootstrapFour();　　   公式ドキュメント
+       \URL::forceScheme("https");
     }
 }

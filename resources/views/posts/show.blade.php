@@ -15,6 +15,9 @@
                 <p>{{ $post->body }}</p>    
             </div>
         </div>
+        <div class="edit">
+            <a href="/posts/{{ $post->id }}/edit">edit</a>
+        </div>
         <div class='link'>
             <a href="/">back to home</a>
         </div>
